@@ -72,6 +72,7 @@ def getMerge(list1,list2):
     # add the elements of list2 into list1
     # if the list2 element is in list1, add it at the position where it occurs in list1
     # if the list2 element is not in list1, add it to the end
+    list1 = list(list1)
     for i in list2:
         notInList1 = True
         for n in list1:
